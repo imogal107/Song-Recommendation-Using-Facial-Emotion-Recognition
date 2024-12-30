@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>musical Arena</title>
+	<script type="text/javascript" src="/eel.js"></script>
+	<link rel="stylesheet" type="text/css" href="header.css">
+	<link rel="stylesheet" type="text/css" href="background.css">
+	<link rel="stylesheet" type="text/css" href="player.css">
+	<style>
+		body {
+			margin: 0;
+		}
+	</style>
+</head>
+
+
+
+<body>
+	<br><br><br><br><br>
+	<div id="first">
+		<h1 id = "moodtext" font-family="verdana" aligntext="center" style="font-size: 40px;color: white;margin: 0;">Music Player : <h1>
+	</div>
+	<div id="second" class="second">
+
+		<button onclick="play()">
+	</div>
+
+
+	<script src="code.js"></script>
+
+	<div id="queue"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Queue<input type="button" id="next"
+			onclick="nextsong()">
+		<hr>
+	</div>
+
+	<div id="third">
+		<div id="emoji"></div>
+		<div id="xyz">
+			&nbsp;&nbsp;&nbsp;Playing :&nbsp;&nbsp;
+			<label id="sname" aligntext="center">none</label>
+		</div>
+		<div id="mod">mode : Queue-mode <input type="radio" name="mode" checked="checked" onclick="setmod(1)">
+			&nbsp;&nbsp;Emotion-mode <input type="radio" name="mode" onclick="setmod(2)">
+		</div>
+		<audio controls id="main_slider">
+			<source id="sel" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+
+		<script>
+
+// document.getElementById("main_slider").onended = function () {
+// 	songrun = false; // Mark that the current song has ended
+// 	if (mod === 1) {
+// 		// Call your function to play the next song in queue mode
+// 		next_in_Q();
+// 		// play()
+// 	} else if (mod === 2) {
+// 		playSongsSequentially(); // Implement this function based on your logic
+// 	}
+// };
+
+			// document.getElementById("main_slider").onended = function () {
+			// 	if (mod == 1)
+			// 		next_in_Q();
+			// 	else if (mod == 2) {
+			// 		// checkEmotionAndPlaySong();
+			// 		startEmotionDetection();
+			// 	}
+			
+
+			// };
+
+
+		</script>
+	</div>
+</body>
+
+</html>
