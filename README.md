@@ -31,11 +31,11 @@ HOW TO RUN ?
 --> download whole project in single folder as uploaded. If U r familiar with jss by understanding the js model u can easly insert # 	 of songs bcz we have make the whole javascript code dynamically such that, just by inserting data inyo the correct dictionary in js will make the project to show and run your own choosed musics.
 
 --> make sure u have installed openCV, opencv contrib, eel, numpy and all it's dependancies.
-library of eel : https://drive.google.com/open?id=1LphmYEBwa-SXbTFXuxIKBAt4iQ1Z2JA8
+
 *--> Just run capture.py file.
 
 -->u can see the images on which assumption of emotion is made in the images folder.
    I advise u to train the model in your pc and then use it(I case you are using any new or updated dataset).
    
--->for any query u can mail on shahyash2609@gmail.com.
+
 Thank You.
